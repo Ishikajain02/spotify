@@ -8,12 +8,14 @@ import reducer from './use/reducer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <StateProvider initialState={initialState} reducer={reducer}>
 
-    </StateProvider>
-    <App />
-  </React.StrictMode>
+  <App />
+ // <React.StrictMode>
+ //  <StateProvider initialState={initialState} reducer={reducer}>
+
+  // </StateProvider>
+  //  <App />
+  //</React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

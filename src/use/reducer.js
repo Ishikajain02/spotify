@@ -1,4 +1,4 @@
-export const initialState={
+/*export const initialState={
     token:null,
 };
 
@@ -9,4 +9,4 @@ const reducer = (state, action) =>{
             return state;
     }
 };
-export default reducer;
+export default reducer;*/

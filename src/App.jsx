@@ -1,9 +1,9 @@
 import React from 'react';
-import Login from "./Logincomponents/Login";
+import spotify from './components/spotify';
 export default function App() {
   return (
     <div>
-      <Login />
+     <spotify/>
     </div>
   )
 }

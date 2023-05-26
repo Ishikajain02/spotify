@@ -1,9 +1,10 @@
 import React from 'react';
-import spotify from './components/spotify';
+import Spotifyy from './components/Spotifyy';
 export default function App() {
   return (
     <div>
-     <spotify/>
+   <Spotifyy />
+     hiii
     </div>
   )
 }

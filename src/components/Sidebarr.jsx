@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import { MdHomeFilled, MdSearch } from "react-icons/md";
 import { IoLibrary } from "react-icons/io5";
 //import { library } from '@fortawesome/fontawesome-svg-core'
-export default function Sidebar() {
+export default function Sidebarr() {
   return (
     <Container>
       <div className="top__links">

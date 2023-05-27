@@ -1,14 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
 import Navbarr from './Navbarr'
-import Sidebar from './Sidebar'
+import Sidebarr from './Sidebarr'
 import Footerr from './Footerr'
 import Bodyy from './bodyy'
 export default function Spotifyy() {
   return (
     <Container>
         <div class ="main-body">
-            <Sidebar />
+            <Sidebarr />
             <div className='body'>
                 <Navbarr />
                 <div className='contents'>

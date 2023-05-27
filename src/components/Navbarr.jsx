@@ -3,10 +3,10 @@ import styled from 'styled-components'
 import { useStateProvider } from '../use/StateProvider';
 import { FaSearch } from "react-icons/fa";
 import { CgProfile } from "react-icons/cg";
-export default function Navbarr({ navBackground }) {
-  const [{ userInfo }] = useStateProvider();
+export default function Navbarr(){
+ // const [{ userInfo }] = useStateProvider();
   return (
-    <Container navBackground={navBackground}>
+   /* <Container navBackground={navBackground}>
       <div className="search__bar">
         <FaSearch />
         <input type="text" placeholder="Artists, songs, or podcasts" />
@@ -17,7 +17,9 @@ export default function Navbarr({ navBackground }) {
           <span>{userInfo?.name}</span>
         </a>
       </div>
-    </Container>
+    </Container>*/
+    <div>hiidggsh
+      </div>
   );
 }
 
